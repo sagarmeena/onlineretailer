@@ -32,6 +32,8 @@
                     </security:authorize>
                 </ul>
                 
+               
+	                    		
                 <ul class="nav navbar-nav navbar-right">                
                     <security:authorize access="isAnonymous()">
 	                    <li id="register">
@@ -42,6 +44,18 @@
 	                        <a href="${contextRoot}/login">Login</a>
 	                    </li> 
                     </security:authorize>
+                    
+                     
+                     <li>
+	                    			<a href="${contextRoot}/cart/show" >
+	                    				
+	                    				<span class="glyphicon glyphicon-shopping-cart"></span>
+	                    				<span class="badge">${userModel.cart.cartLines}</span>
+	                    				- &dollar; ${userModel.cart.grandTotal}
+	                    			
+	                    			</a>
+	                    		</li>
+                    
                     
                     <security:authorize access="isAuthenticated()">
                     <li class="dropdown" id="userCart">
@@ -59,8 +73,8 @@
                     	<ul class="dropdown-menu">
                     		
                     		
-                    		<security:authorize access="hasAuthority('USER')">
-	                    		<li>
+                    		<security:authorize access="hasAuthority('USER')"> 
+	                    		<!--  <li>
 	                    			<a href="${contextRoot}/cart/show" >
 	                    				
 	                    				<span class="glyphicon glyphicon-shopping-cart"></span>
@@ -70,7 +84,7 @@
 	                    			</a>
 	                    		</li>
 	                    		
-	                    		<li class="divider" role="separator"></li>
+	                    		<li class="divider" role="separator"></li>-->
 	                    		
                     		</security:authorize>
                     		<li>
@@ -94,9 +108,3 @@
 		window.userRole = '${userModel.role}';	
 	
 	</script>
-	
-	
-	
-	
-	
-	

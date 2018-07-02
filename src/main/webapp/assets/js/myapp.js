@@ -19,7 +19,7 @@ $(function() {
 			break;
 		default:	
 			if(menu == "Home") break;
-			$('#listProducts').addClass('active');
+		    $('#listProducts').addClass('active');
 			$('#a_'+menu).addClass('active');
 			break;		
 	}
@@ -83,7 +83,7 @@ $(function() {
 			          {
 			        	  data: 'unitPrice',
 			        	  mRender: function(data, type, row) {
-			        		  return '&#8377; ' + data
+			        		  return '$; ' + data
 			        	  }
 			          },
 			          {
@@ -191,7 +191,7 @@ $(function() {
 	            {
 	                data: 'unitPrice',
 	                mRender: function (data, type, row) {
-	                    return '&#8377; ' + data
+	                    return '$' + data
 	                }
 	            },
 	            {

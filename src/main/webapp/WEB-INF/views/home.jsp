@@ -16,16 +16,19 @@
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                             </ol>
                             <div class="carousel-inner">
-                                <div class="item active">
-                                    <img class="slide-image" src="images/sun.jpg" alt="">
+                                <div class="item active"> <img class="slide-image" <img src="resources/images/joefresh.jpg" alt="">
+                                </div>
+                               <div class="item">
+                                <img class="slide-image" <img src="resources/images/loblaws.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="images/sky.jpg" alt="">
+                                    <img class="slide-image" <img src="resources/images/noname.jpg" alt="">
                                 </div>
                                 <div class="item">
-                                    <img class="slide-image" src="images/tree.jpg" alt="">
+                                    <img class="slide-image" <img src="resources/images/PC.jpg" alt="">
                                 </div>
                             </div>
                             <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -38,17 +41,19 @@
                     </div>
 
                 </div>
-
+                           <p>Most Viewed Products </p>
                 <div class="row">
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
+
+                    
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="resources/images/PCCola.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$24.99</h4>
-                                <h4><a href="#">First Product</a>
-                                </h4>
-                                <p>See more snippets like this online store item at <a target="_blank" href="http://www.bootsnipp.com">Bootsnipp - http://bootsnipp.com</a>.</p>
+                                <h5><a href="#">PC Cola</a></h5>
+                                <p>See more snippets like this online store item at </p>
+                                <a target="_blank" href="${contextRoot}/show/8/product">View Product</a>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
@@ -65,12 +70,12 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="resources/images/chbread.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$64.99</h4>
-                                <h4><a href="#">Second Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5><a href="#">Country Harvest Bread</a></h5>
+                                <p>This is a short description. Lorem.</p>
+                                <a target="_blank" href="${contextRoot}/show/18/product">View Product</a>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">12 reviews</p>
@@ -87,12 +92,12 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="resources/images/nncoffee.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$74.99</h4>
-                                <h4><a href="#">Third Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5><a href="#">No Name Coffee</a></h5>
+                               <p>This is a short description. Lorem.</p>
+                                <a target="_blank" href="${contextRoot}/show/21/product">View Product</a>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">31 reviews</p>
@@ -109,12 +114,12 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="resources/images/jfliner.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$84.99</h4>
-                                <h4><a href="#">Fourth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5><a href="#">Joe Fresh Lip Gloss</a></h5>
+                                <p>This is a short description. Lorem.</p>
+                                <a target="_blank" href="${contextRoot}/show/14/product">View Product</a>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">6 reviews</p>
@@ -131,12 +136,12 @@
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
-                            <img src="http://placehold.it/320x150" alt="">
+                            <img src="resources/images/avacados.jpg" alt="">
                             <div class="caption">
                                 <h4 class="pull-right">$94.99</h4>
-                                <h4><a href="#">Fifth Product</a>
-                                </h4>
-                                <p>This is a short description. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                <h5><a href="#">Avacados</a></h5>
+                               <p>This is a short description. Lorem.</p>
+                                <a target="_blank" href="${contextRoot}/show/7/product">View Product</a>
                             </div>
                             <div class="ratings">
                                 <p class="pull-right">18 reviews</p>
@@ -152,11 +157,27 @@
                     </div>
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
-                        <h4><a href="#">Like this template?</a>
-                        </h4>
-                        <p>If you like this template, then check out <a target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">this tutorial</a> on how to build a working review system for your online store!</p>
-                        <a class="btn btn-primary" target="_blank" href="http://maxoffsky.com/code-blog/laravel-shop-tutorial-1-building-a-review-system/">View Tutorial</a>
+                        <div class="thumbnail">
+                            <img src="resources/images/bmchicken.jpg" alt="">
+                            <div class="caption">
+                                <h4 class="pull-right">$94.99</h4>
+                                <h5><a href="#">Blue Menu Chicken</a></h5>
+                                <p>This is a short description. Lorem.</p>
+                                <a target="_blank" href="${contextRoot}/show/11/product">View Product</a>
+                            </div>
+                            <div class="ratings">
+                                <p class="pull-right">18 reviews</p>
+                                <p>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                </p>
+                            </div>
+                        </div>
                     </div>
+                    
 
                 </div>
 
